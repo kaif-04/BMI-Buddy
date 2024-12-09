@@ -10,7 +10,7 @@ import Gallery from "./components/Gallery";
 import Pricing from "./components/Pricing";
 import Contact from "./components/Contact";
 import BMICalculator from "./components/BMICalculator";
-import Footer from "./components/Footer";
+
 
 const App = () => {
   return (
@@ -20,9 +20,8 @@ const App = () => {
       <WorkoutSessions />
       <Gallery />
       <Pricing />
-      <Contact />
       <BMICalculator />
-      <Footer />
+      <Contact />
       <ToastContainer theme="dark" position="top-center" />
     </Router>
   );

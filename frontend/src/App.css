@@ -14,7 +14,7 @@ header {
   left: 0;
   z-index: 1;
   font-size: 1.6rem;
-  border: 2px solid whitesmoke;
+  border: 2px solid cyan;
   padding: 8px 12px;
   margin-top: 45px;
   margin-left: 7rem;
@@ -23,7 +23,7 @@ header p {
   font-family: "Exo 2", sans-serif;
   letter-spacing: 1px;
   word-spacing: 5px;
-  color: whitesmoke;
+  color: cyan;
 }
 
 .hero {
@@ -44,7 +44,7 @@ header p {
   gap: 30px;
 }
 .hero .content .title {
-  color: whitesmoke;
+  color: cyan;
   font-size: 4rem;
 }
 .hero .content .sub-title p {
@@ -62,6 +62,7 @@ header p {
   gap: 25px;
 }
 .hero .content .buttons button {
+  text-decoration: none;
   padding: 15px 30px;
   font-size: 1.2rem;
   color: #0095ff;
@@ -69,6 +70,12 @@ header p {
   background: transparent;
   transition: 0.3s;
 }
+
+.hero .content .buttons button a {
+  color: cyan; 
+  text-decoration: none; 
+}
+
 .hero .content .buttons button:hover {
   cursor: pointer;
   background: #0095ff;
@@ -212,8 +219,8 @@ header p {
   padding: 100px 0 50px 0;
 }
 .gallery h1 {
-  color: #0095ff;
-  font-size: 2.2rem;
+  color: cyan;
+  font-size: 3.2rem;
   margin: 0 auto;
   letter-spacing: 1px;
 }
@@ -253,7 +260,7 @@ header p {
   padding: 100px 0 50px 0;
 }
 .pricing h1 {
-  font-size: 2.2rem;
+  font-size: 3.2rem;
   margin: 0 auto;
   letter-spacing: 1px;
 }
@@ -290,7 +297,7 @@ header p {
 }
 .pricing .wrapper .card .title h1 {
   font-size: 3rem;
-  color: #0095ff;
+  color: cyan;
   position: relative;
   z-index: 5;
 }
@@ -529,11 +536,11 @@ footer {
   background: linear-gradient(45deg, #0a2b42, #60698b);
 }
 .bmi h1 {
-  font-size: 2.2rem;
+  font-size: 3.2rem;
   margin: 0 auto;
   letter-spacing: 1px;
   text-transform: uppercase;
-  color: whitesmoke;
+  color: cyan;
 }
 .bmi .container {
   display: flex;

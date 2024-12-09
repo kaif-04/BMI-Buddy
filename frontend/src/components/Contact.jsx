@@ -30,7 +30,8 @@ const Contact = () => {
       setMessage("");
       toast.success(data.message);
       setLoading(false);
-    } catch (error) {
+    } 
+    catch (error) {
       setLoading(false);
       toast.error(error.response.data.message);
     }
